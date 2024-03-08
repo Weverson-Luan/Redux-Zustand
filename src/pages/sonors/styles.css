@@ -1,0 +1,53 @@
+.container button{
+  background-color: rgb(0, 60, 255);
+  color: #fff;
+}
+.example {
+  background: #e9c46a;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.message-trigger {
+  padding: 16px 24px;
+  background: #fff;
+  border: none;
+  color: #333;
+  font-weight: 700;
+  font-size: 24px;
+  border-radius: 8px;
+}
+
+.message {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: #fff;
+  line-height: 1.5;
+  border-radius: 6px;
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  gap: 20px;
+  animation: messageIn 0.3s ease forwards;
+}
+
+@keyframes messageIn {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.message button {
+  border: none;
+  background: none;
+}

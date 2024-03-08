@@ -18,3 +18,4 @@
   12 -> npm i vitest -D (<https://vitest.dev/>)
   13 -> npm i json-server -D
   14 -> npm install zustand
+  15 -> npm install react-sound --save
